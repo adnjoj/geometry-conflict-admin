@@ -1,0 +1,99 @@
+.block-pick-window {
+  position: absolute;
+  width: 850px;
+  height: 390px;
+
+  left: 81px;
+  top: 85px;
+  border-radius: 8px;
+
+  background: #343439;
+  color: white;
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    display: none;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #606066;
+  }
+
+  &__blocks-list {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    height: 322px;
+    margin: 10px;
+  }
+
+  &__block {
+    padding: 10px;
+    transition: background linear 0.1s;
+
+    &:hover {
+      background: #151517;
+      cursor: pointer;
+    }
+
+    &__active {
+      background: #151517;
+    }
+
+    & > img {
+      max-height: 200px;
+    }
+  }
+
+  &__tab-list {
+    height: 45px;
+    display: flex;
+    align-items: stretch;
+    border-radius: 8px;
+  }
+
+  &__empty-tab {
+    width: 40px;
+    background: #262629;
+    border-top-left-radius: 8px;
+  }
+
+  &__filler-tab {
+    width: 100%;
+    background: #262629;
+    border-top-right-radius: 8px;
+
+    & > div {
+      float: right;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0 15px;
+    }
+
+    & > div:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__tab {
+    padding: 10px 15px;
+    background: #262629;
+
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &__active {
+      background: #343439;
+    }
+  }
+}

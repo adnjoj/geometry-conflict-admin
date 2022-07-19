@@ -1,0 +1,89 @@
+{
+  "loading": "Загрузка...",
+  "gamemodes": {
+    "Flag": "Флаг",
+    "Siege": "Осада",
+    "Path": "Тропа",
+    "AllOrNothing": "Всё или ничего",
+    "Diversion": "Диверсия",
+    "Meat": "Мясо",
+    "Documents": "Документы"
+  },
+  "gameObjectTypes": {
+    "Solid": "Стена",
+    "Ice": "Лёд",
+    "Sand": "Песок",
+    "Bush": "Куст",
+    "GrassTile": "Тайл травы",
+    "GroundTile": "Тайл земли",
+    "PlayerCollider": "Коллайдер для игрока",
+    "UnshootableBulletCollider": "Непростреливаемый коллайдер для пуль",
+    "ShootableBulletCollider": "Простреливаемый коллайдер для пуль",
+    "Path": "Тропа",
+    "Point": "Точка",
+    "Group": "Группа"
+  },
+  "skinTypes": {
+    "Skin": "Скин",
+    "Mouth": "Рот",
+    "Eyesockets": "Глазницы",
+    "Eyebrows": "Брови",
+    "Eyes": "Глаза",
+    "Footprints": "Следы"
+  },
+  "fractions": {
+    "Square": "Квадрат",
+    "Triangle": "Треугольник",
+    "Circle": "Круг",
+    "Star": "Звезда"
+  },
+  "specialities": {
+    "Soldier": "Солдат",
+    "Assaulter": "Штурмовик",
+    "Doctor": "Доктор",
+    "Hunter": "Охотник",
+    "Juggernaut": "Подавляющий",
+    "Miner": "Минер",
+    "Scout": "Разведчик",
+    "Sniper": "Снайпер"
+  },
+  "weaponTypes": {
+    "Knife": "Нож",
+    "Pistol": "Пистолет",
+    "RPG": "РПГ",
+    "Shotgun": "Дробовик",
+    "SniperRiffle": "Снайперская винтовка",
+    "TommyGun": "Автомат",
+    "SubmachineGun": "Пистолет-пулемет"
+  },
+  "clip": {
+    "Created": "Обойма успешно создана",
+    "Updated": "Обойма успешно изменена",
+    "Deleted": "Обойма успешно удалена",
+    "DoesNotExist": "Обоймы с таким ID не существует"
+  },
+  "weapon": {
+    "Created": "Оружие успешно создано",
+    "Updated": "Оружие успешно изменено",
+    "Deleted": "Оружие успешно удалено",
+    "DoesNotExist": "Оружия с таким ID не существует"
+  },
+  "map": {
+    "Created": "Карта успешно создана",
+    "Updated": "Карта успешно изменена",
+    "Deleted": "Карта успешно удалена",
+    "DoesNotExist": "Карты с таким ID не существует"
+  },
+  "skin": {
+    "Created": "Скин успешно создан",
+    "Updated": "Скин успешно изменен",
+    "Deleted": "Скин успешно удален",
+    "DoesNotExist": "Скина с таким ID не существует"
+  },
+  "gameObject": {
+    "Created": "Объект успешно создан",
+    "Updated": "Объект успешно изменен",
+    "Deleted": "Объект успешно удален",
+    "DoesNotExist": "Объекта с таким ID не существует"
+  }
+}

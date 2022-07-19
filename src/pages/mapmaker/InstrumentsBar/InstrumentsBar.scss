@@ -1,0 +1,31 @@
+.instruments-bar {
+  width: 66px;
+  padding-top: 20px;
+  background-color: #343439;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__image-container {
+    width: 40pt;
+    height: 40pt;
+    margin-bottom: 10px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background linear 0.1s;
+
+    &__active {
+      background: #8d8d8d;
+    }
+
+    &:hover {
+      cursor: pointer;
+      background: #8d8d8d;
+    }
+  }
+}

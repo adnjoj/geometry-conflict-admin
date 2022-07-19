@@ -1,0 +1,26 @@
+button {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid var(--color-primary-bright);
+  border-radius: 0;
+
+  font-weight: 500;
+  color: var(--color-primary-bright);
+
+  background-color: white;
+
+  transition: all linear 0.1s;
+
+  &:focus,
+  &:hover {
+    color: white;
+    background-color: var(--color-primary-bright);
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}

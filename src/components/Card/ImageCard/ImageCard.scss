@@ -1,0 +1,11 @@
+@import '../Card.scss';
+
+.card {
+  &:hover {
+    cursor: pointer;
+  }
+
+  &__image-container {
+    height: 100%;
+  }
+}

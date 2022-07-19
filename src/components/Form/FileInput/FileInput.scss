@@ -1,0 +1,39 @@
+.file-input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+
+  &__wrapper {
+    grid-column: 2;
+  }
+
+  & + label {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid var(--color-primary-bright);
+    border-radius: 0;
+
+    font-weight: 500;
+    color: var(--color-primary-bright);
+
+    background-color: white;
+
+    transition: all linear 0.1s;
+  }
+
+  &:focus + label,
+  & + label:hover {
+    color: white;
+    background-color: var(--color-primary-bright);
+  }
+
+  & + label:hover {
+    cursor: pointer;
+  }
+}

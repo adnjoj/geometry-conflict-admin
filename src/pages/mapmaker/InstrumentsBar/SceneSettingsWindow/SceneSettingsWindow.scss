@@ -1,0 +1,63 @@
+.scene-settings-window {
+  padding: 20px 30px;
+  width: 350px;
+  position: absolute;
+  left: 81px;
+  bottom: 15px;
+  border-radius: 8px;
+
+  background-color: #343439;
+
+  flex-direction: column;
+  gap: 20px;
+
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 16px;
+    color: white;
+
+    & > label {
+      padding-top: 2px;
+      width: 100px;
+    }
+
+    & > input {
+      width: 150px;
+      border: none;
+      border-bottom: 1px solid whitesmoke;
+      padding-top: 8px;
+      padding-bottom: 3px;
+      background: #343439;
+
+      font-size: inherit;
+      color: inherit;
+
+      &:active,
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  &__button {
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    background: none;
+
+    font-size: 16px;
+    color: white;
+
+    padding: 10px 35px;
+
+    transition: all linear 0.1s;
+
+    &:hover {
+      background: white;
+      color: #343439;
+      cursor: pointer;
+    }
+  }
+}

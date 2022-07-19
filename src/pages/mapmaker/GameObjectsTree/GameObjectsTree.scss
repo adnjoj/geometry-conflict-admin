@@ -1,0 +1,64 @@
+.objects-tree {
+  padding: 25px 0;
+  width: 500px;
+  height: 100%;
+  border-left: 1px solid #d8d8d8;
+  border-right: 1px solid #d8d8d8;
+
+  overflow: auto;
+
+  :global(.objects-tree__input) {
+    &:active,
+    &:focus {
+      outline: none;
+    }
+
+    padding: 0;
+    margin: 0;
+
+    font-size: 16px;
+    font-weight: 500;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-bottom: 1px solid #555555;
+    background: transparent;
+  }
+
+  :global(.objects-tree__element) {
+    margin-top: -2px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+
+    user-select: none;
+
+    & > :global(div) {
+      display: flex;
+      align-items: center;
+      border: 2px solid transparent;
+      margin-top: -2px;
+
+      & > :global(div) {
+        height: 33px;
+        margin-right: 15px;
+
+        display: flex;
+        align-items: center;
+
+        & :global(img) {
+          filter: invert(46%);
+        }
+      }
+    }
+  }
+
+  :global(.objects-tree__element__selected) {
+    background-color: #1db1eb5d;
+  }
+
+  :global(.objects-tree__element__selected-indirectly) {
+    background-color: #1db1eb34;
+  }
+}

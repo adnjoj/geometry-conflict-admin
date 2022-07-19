@@ -1,0 +1,11 @@
+.error-field {
+  position: absolute;
+  top: 2.9rem;
+  right: 0;
+
+  color: tomato;
+  font-weight: 400;
+  font-size: 0.8em;
+
+  grid-column: 1 / 3;
+}
